@@ -1,0 +1,18 @@
+function OuterFunction(){
+    var outerVariable = 100;
+function InnerFunction() {
+    console.log(outerVariable);
+    }
+
+return InnerFunction;
+
+}
+var innerFunc = OuterFunction();
+innerFunc();
+
+
+a) Is the InnerFunction() a closure?
+    Yes Here InnerFunction is Closure
+
+b) What is output of this program
+    Output of this program is 100

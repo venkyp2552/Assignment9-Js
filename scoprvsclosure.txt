@@ -1,0 +1,7 @@
+Closure:
+    Whenever you create a function within another function, then the inner function is closure. 
+    This closure is usually returned so you can use the outer function’s variables at a later time. 
+
+Scocpe:
+    When you declare a variable in a function, you can only access it in the function. 
+    These variables are said to be scoped to the function
